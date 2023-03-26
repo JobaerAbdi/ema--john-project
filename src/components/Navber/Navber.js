@@ -1,11 +1,13 @@
 import React from 'react';
-
+import logo from '../../images/Logo.svg'
 const Navber = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-lg bg-red-300 lg:px-12">
+            <div className="navbar bg-base-100 shadow-lg bg-cyan-500 lg:px-12">
   <div className="flex-1">
-    <a href='/' className="btn btn-ghost normal-case text-xl font-bold">Ema-John-Shopping</a>
+    <a href='/' className="btn btn-ghost normal-case text-xl font-bold">
+    <img src={logo} alt='' />
+    </a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
